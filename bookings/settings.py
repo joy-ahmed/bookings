@@ -42,7 +42,7 @@ THIRD_PARTY_APPS = ['django_countries']
 
 PROJECT_APPS = [
     'core.apps.CoreConfig',
-    'conversations',
+    'conversations.apps.ConversationsConfig',
     'lists.apps.ListsConfig',
     'reservations.apps.ReservationsConfig',
     'reviews.apps.ReviewsConfig',
